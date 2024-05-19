@@ -18,7 +18,7 @@ jobs:
           pip install pyyaml
 
       - name: Run Feed Generator 
-        run: python feed.yaml
+        run: python feed.py  # This runs the Python script that processes feed.yaml
 
       - name: Push Repo
         run: |
